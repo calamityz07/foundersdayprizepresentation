@@ -508,7 +508,7 @@ div.center-cropped {
    }
 }
 @media screen and (max-width: 768px) {
-    .container {
+    .content {
       flex-direction: column;
     }
     .bar1, .bar2, .bar3 {

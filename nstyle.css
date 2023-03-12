@@ -507,11 +507,17 @@ div.center-cropped {
         transform: translate3d(0, -25%, 0);
    }
 }
-@media screen and (max-width: 768px) {
-    .content {
-      flex-direction: column;
+@media only screen and (max-width: 600px) {
+    /* Style the Welcome section for smaller screens */
+    .content__container {
+      text-align: center;
     }
-    .bar1, .bar2, .bar3 {
-      width: 100%;
+    .content__container__list {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    /* Add padding to the heading to make space for the navigation menu */
+    #heading {
+      padding-top: 70px;
     }
   }

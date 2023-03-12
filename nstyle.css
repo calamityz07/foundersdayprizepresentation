@@ -345,7 +345,7 @@ div.center-cropped {
 }
 .content {
     position: absolute;
-    top: 15%;
+    top: 130%;
     left: 24%;
     transform: translate(-50%, -50%);
     height: 160px;
